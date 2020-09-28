@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>跳转</h2>
+    <button @click="load">跳转</button>
   </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
     }
   },
   methods: {
-    load() {
+    load () {
       this.$router.push('/index')
     }
   }
