@@ -1,7 +1,7 @@
 <template>
   <div>
-    当前为index页<br>
-    <button @click="load">跳转到home页</button>
+    当前为home页<br>
+    <button @click="load">跳转到helloworld页</button>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 export default {
   methods: {
     load () {
-      this.$router.push('/home')
+      this.$router.push('/')
     }
   }
 }

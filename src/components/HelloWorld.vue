@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <button @click="load">跳转</button>
+    <button @click="load">跳转到</button>
   </div>
 </template>
 
@@ -10,7 +10,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: '当前为helloworld页'
     }
   },
   methods: {
